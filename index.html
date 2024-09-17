@@ -1,12 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de desarrollo web">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
-    <footer></footer>
+  <!-- Navbar -->
+   <main>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hola, soy <span>Kilian</span></h1>
+      <p>Desarrollador web enfocado en <span>E-commerce</span> y tecnologías modernas como PHP, JavaScript y Python.</p>
+      <a href="#projects" class="btn">Ver Proyectos</a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>Mis Proyectos</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Proyecto 1">
+        <h3>Proyecto 1</h3>
+        <p>Descripción breve del proyecto 1.</p>
+        <a href="#" class="btn">Ver más</a>
+      </div>
+      <div class="project-card">
+        <img src="project2.jpg" alt="Proyecto 2">
+        <h3>Proyecto 2</h3>
+        <p>Descripción breve del proyecto 2.</p>
+        <a href="#" class="btn">Ver más</a>
+      </div>
+      <!-- Puedes agregar más proyectos aquí -->
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-section">
+    <h2>Sobre Mí</h2>
+    <p>Comencé mi camino en el desarrollo web en verano de 2023. Desde entonces, he trabajado en varios proyectos, mejorando mis habilidades en tecnologías como Symfony, Magento, WooCommerce, y más.</p>
+    <p>Me apasiona crear soluciones de e-commerce innovadoras y eficientes que ayuden a los negocios a crecer en el entorno digital.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contacto</h2>
+    <form action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="text" name="name" placeholder="Tu Nombre" required>
+      <input type="email" name="email" placeholder="Tu Email" required>
+      <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 - Mi Portafolio</p>
+  </footer>
+</main>
 </body>
 </html>
