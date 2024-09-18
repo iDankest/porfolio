@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:#856488;
+}
+.aside{
+    position: fixed;  /* Hace que el aside esté fijo */
+    top: 0;           /* Posición superior a 0 */
+    left: 0;          /* Posición a la izquierda a 0 (puedes cambiarla a derecha si lo prefieres) */
+     /* Anchura del aside */
+    background-color: #DAD1DB;
+    height: 100vh;
+    width: 10vw;
+    box-shadow: 5px 5px 0;      /* Sombra sin desenfoque */
+    box-shadow: 5px 5px 2px;    /* Sombra con ligero desenfoque */
+    box-shadow: 5px 5px 10px;   /* Sombra desenfocada */
+    box-shadow: 5px 5px 40px;   /* Sombra con un desenfoque casi disipado */
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+main{
+    display: flex;
+    align-items: center;
+    margin-left: 14vw;
+    height: 100vh;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    color: #9575CD;
+    
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    height: 70vh;
+    
+}
+button{
+    background-color: #9575CD;
+    border-radius: 10%;
+}
+.dankest {
+    height: 60vh; /* Altura relativa a la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: flex-start; /* Alinea todo el contenido a la izquierda */
+    gap: 1em;
+    position: relative;
+}
+
+.dankest h1 {
+    font-size: 52px;  /* Tamaño del h1 */
+    margin: 0;
+    line-height: 1;   /* Asegura que el h1 no tenga demasiado espacio vertical */
+    position: relative;
+    left: 0px;
+    top: -277px;
+}
+
+.dankest span {
+    font-size: 16px;  /* Tamaño más pequeño para el span */
+    position: absolute;
+    top: 52px;        /* Ajusta la posición para que esté justo debajo del h1 */
+    left: 5px;        /* Desplaza el span a la izquierda del h1 */
+    color: gray;
+    left: 152px;
+    top: 6px;     /* Color del span más tenue */
+}
+
+.dankest h3, .dankest h4, .dankest h5 {
+    margin: 1em 0 0 0; /* Espacio uniforme después de los textos */
+    text-align: left;
+    position: relative;
+    left: 2px;
+    top: -275px;   /* Alinea todo a la izquierda */
+}
+
+.dankest button {
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    left: 2px;
+    top: -280px;
+}
+
+.social {
+    display: flex;
+    gap: 1em; /* Espaciado entre los botones sociales */
+    
+}
+
+.social button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333; /* Color de fondo para los botones */
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 3px;
+    top: -215px;
+}
