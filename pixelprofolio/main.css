@@ -4,16 +4,17 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color:#856488;
+    background-color:#251D46;
 }
 .aside{
     position: fixed;  /* Hace que el aside esté fijo */
     top: 0;           /* Posición superior a 0 */
     left: 0;          /* Posición a la izquierda a 0 (puedes cambiarla a derecha si lo prefieres) */
      /* Anchura del aside */
-    background-color: #DAD1DB;
+    background-color: #372862;
     height: 100vh;
     width: 10vw;
+    min-width: 200px;
     box-shadow: 5px 5px 0;      /* Sombra sin desenfoque */
     box-shadow: 5px 5px 2px;    /* Sombra con ligero desenfoque */
     box-shadow: 5px 5px 10px;   /* Sombra desenfocada */
@@ -36,11 +37,11 @@ li{
     list-style: none;
 }
 li a{
-    color: black;
+    color: #9A85DD;
     text-decoration: none;
 }
 li a:hover{
-    color: #9575CD;
+    color: #4CDAD7;
     
 }
 nav{
@@ -68,6 +69,7 @@ button{
 .dankest h1 {
     font-size: 52px;  /* Tamaño del h1 */
     margin: 0;
+    color: #D56DF2;
     line-height: 1;   /* Asegura que el h1 no tenga demasiado espacio vertical */
     position: relative;
     left: 0px;
@@ -79,7 +81,7 @@ button{
     position: absolute;
     top: 52px;        /* Ajusta la posición para que esté justo debajo del h1 */
     left: 5px;        /* Desplaza el span a la izquierda del h1 */
-    color: gray;
+    color: #02FE9D;
     left: 152px;
     top: 6px;     /* Color del span más tenue */
 }
@@ -89,12 +91,17 @@ button{
     text-align: left;
     position: relative;
     left: 2px;
+    color: #9DB9E9;
     top: -275px;   /* Alinea todo a la izquierda */
+}
+.dankest h3 {
+    color: #FFE500;
 }
 
 .dankest button {
     padding: 0.5em 1em;
     font-size: 1rem;
+    background-color: #02FE9D;
     cursor: pointer;
     position: relative;
     left: 2px;
@@ -111,10 +118,13 @@ button{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #333; /* Color de fondo para los botones */
+    background-color: #F85783; /* Color de fondo para los botones */
     border: none;
     cursor: pointer;
     position: relative;
     left: 3px;
     top: -215px;
+}
+a{
+    color: #02FE9D;
 }
