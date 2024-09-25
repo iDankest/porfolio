@@ -85,6 +85,13 @@ button{
 }
 .dankest h3 {
     color: #FFE500;
+
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 31.5ch;
+
+    animation: typing 2s steps(32), blink .5s infinite step-end alternate;
+    overflow: hidden;
 }
 
 .dankest button {
@@ -120,5 +127,13 @@ a{
 .name span{
     position: relative;
     left: 50px;
- 
+}
+
+
+@keyframes typing{
+    from { width: 0; }
+}
+
+@keyframes blink{
+    50% { border-color: transparent;}
 }
