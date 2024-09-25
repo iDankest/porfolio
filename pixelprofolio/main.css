@@ -63,7 +63,7 @@ button{
     justify-content: center; /* Centra el contenido verticalmente */
     align-items: flex-start; /* Alinea todo el contenido a la izquierda */
     gap: 1em;
-    position: relative;
+    margin-left: 100px;
 }
 
 .dankest h1 {
@@ -71,28 +71,17 @@ button{
     margin: 0;
     color: #D56DF2;
     line-height: 1;   /* Asegura que el h1 no tenga demasiado espacio vertical */
-    position: relative;
-    left: 0px;
-    top: -277px;
 }
 
 .dankest span {
     font-size: 16px;  /* Tamaño más pequeño para el span */
-    position: absolute;
-    top: 52px;        /* Ajusta la posición para que esté justo debajo del h1 */
-    left: 5px;        /* Desplaza el span a la izquierda del h1 */
     color: #02FE9D;
-    left: 152px;
-    top: 6px;     /* Color del span más tenue */
 }
 
 .dankest h3, .dankest h4, .dankest h5 {
     margin: 1em 0 0 0; /* Espacio uniforme después de los textos */
     text-align: left;
-    position: relative;
-    left: 2px;
     color: #9DB9E9;
-    top: -275px;   /* Alinea todo a la izquierda */
 }
 .dankest h3 {
     color: #FFE500;
@@ -103,9 +92,6 @@ button{
     font-size: 1rem;
     background-color: #02FE9D;
     cursor: pointer;
-    position: relative;
-    left: 2px;
-    top: -280px;
 }
 
 .social {
@@ -121,10 +107,18 @@ button{
     background-color: #F85783; /* Color de fondo para los botones */
     border: none;
     cursor: pointer;
-    position: relative;
-    left: 3px;
-    top: -215px;
 }
 a{
     color: #02FE9D;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.name span{
+    position: relative;
+    left: 50px;
+ 
 }
