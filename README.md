@@ -4,4 +4,4 @@ Porfolio!
 
 mirando porfolio en astro
 
-##Update de miercoles 25 de septiembre: Maquetado de la About inico y animacion CSS 
+## Update de miercoles 25 de septiembre: Maquetado de la About inico y animacion CSS 
