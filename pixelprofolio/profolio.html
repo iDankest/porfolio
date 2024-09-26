@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <main>
+    <main id="dankest">
         <section class="aside">
             
             <nav>
                 <img src="sinfondo.png" alt="">
                 <ul>
-                    <li><a href="">IDankest</a></li>
-                    <li><a href="">Sobre Mi</a></li>
+                    <li><a href="#dankest">IDankest</a></li>
+                    <li><a href="#sobremi" onclick="scrollToSection()">Sobre Mi</a></li>
                     <li><a href="">Porfolio</a></li>
                     <li><a href="">Educacion</a></li>
                     <li><a href="">Skills</a></li>
@@ -22,7 +22,7 @@
                 </ul>
             </nav>
         </section>
-        <section class="dankest">
+        <section class="dankest" >
             <div class="name">
                 <h1>IDankest</h1>
                 <span>Kilian Sánchez</span>
@@ -39,7 +39,7 @@
         </section>
     </main>
     <main>
-        <section>
+        <section id="sobremi">
             <h1>IDankest</h1>
             <span>Kilian Sánchez</span>
             <h3>En la ruta para ser un Desarrollador</h3>
@@ -52,5 +52,6 @@
             </div>
         </section>
     </main>
+    <script src="main.js" defer></script>
 </body>
 </html>
