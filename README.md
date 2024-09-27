@@ -11,3 +11,11 @@
 <ul>
   <li>Buscar posible botton para Descargar CV</li>
 </ul>
+
+#### Pequeño Obejtivo
+
+<ol>
+  <li>Crear en el HTML la nueva seccion about</li>
+  <li>Añadir los datos</li>
+  <li>Crear que en cada seccion que estes en el nav se quede iluminado como que estas en ese ancla</li>
+</ol>
