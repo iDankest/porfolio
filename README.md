@@ -7,3 +7,7 @@
   </ul>
 
 #### Update de miercoles 25 de septiembre: Maquetado de la About inico y animacion CSS 
+
+<ul>
+  <li>Buscar posible botton para Descargar CV</li>
+</ul>
