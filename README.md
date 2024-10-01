@@ -19,3 +19,4 @@
   <li>Añadir los datos</li>
   <li>Crear que en cada seccion que estes en el nav se quede iluminado como que estas en ese ancla</li>
 </ol>
+### demas secciones
