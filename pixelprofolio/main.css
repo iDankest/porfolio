@@ -140,3 +140,43 @@ a{
 @keyframes blink{
     50% { border-color: transparent;}
 }
+
+#sobremi{
+    max-width: 900px;
+    margin:  50px;
+    padding: 20px;
+    color:  #D56DF2;
+    
+}
+.content{
+    margin-top: 30px;
+    color: #9DB9E9;
+    font-size: 18px;
+}
+#sobremi span{
+    color: #02FE9D;
+}
+#sobremi section{
+    font-size: 36px;
+}
+#sobremi section p{
+    font-size: 22px;
+}
+#porfolio{
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+.tarjetas div{
+    width: 400px;
+    height: 200px;
+}
+.tarjetas{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 1em;
+}
+.tarjetas div{
+    background-image: url(rooftopRush.png);
+    background-size: cover;
+}
