@@ -1,12 +1,14 @@
 # porfolio
+
 ![imagen](https://github.com/user-attachments/assets/20941b7c-b2ae-417a-9e50-72837cfcff5a)
 
 #### Mejoras:
+
   <ul>
     <li>mirando porfolio en astro</li>
   </ul>
 
-#### Update de miercoles 25 de septiembre: Maquetado de la About inico y animacion CSS 
+#### Update de miercoles 25 de septiembre: Maquetado de la About inico y animacion CSS
 
 <ul>
   <li>Buscar posible botton para Descargar CV</li>
@@ -20,3 +22,4 @@
   <li>Crear que en cada seccion que estes en el nav se quede iluminado como que estas en ese ancla</li>
 </ol>
 ### demas secciones
+ Cambiar y reacer protafolio con nuevos conocimientos de css y html React, astro, tailwind y ver si se puede hacer responsive
